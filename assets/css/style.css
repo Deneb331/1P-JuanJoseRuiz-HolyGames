@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;700&family=Ibarra+Real+Nova:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    color: #fafafa;
+}
+
+/* Header, headings and logo */
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #0882A3;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #F2E43F;
+}
+
+#logo {
+    font-family: 'Cormorant SC', serif;
+    text-shadow: 2px 2px #A69E42;
+    float: left;
+    font-size: 250%;
+    margin-left: 20px;
+}
+
+#logo, #menu {
+    line-height: 50px;
+}
+
+/* Navigation links and menu */
+
+#menu {
+    font-size: 120%;
+    text-align: right;
+}
+
+#menu li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+}
