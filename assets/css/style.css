@@ -55,3 +55,80 @@ h1, h2 {
     text-decoration: none;
     color: white;
 }
+
+#menu a:hover{
+    border-bottom: 1px solid #F2E43F;
+}
+
+/* Hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+
+    margin: 0 auto;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    
+    background: url('../images/MainImage.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    transform: scale(1.1);
+
+    transition: transform 2s ease-out 100ms;
+}
+
+#cover-text {
+    width: 100%;
+    height: 600px;
+
+    margin: 0 auto;
+        
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0,0,0,0);
+    transition: background-color 2s ease-out 100ms;
+}
+
+#cover-text h2 {
+    color: rgba(136, 136, 136, 0);
+    font-size: 130%;
+    font-family: 'Ibarra Real Nova', serif;
+    
+    text-transform: none;
+    text-align: center;
+    margin: 0 100px;
+
+    transition: color 2s ease-out 100ms;
+}
+
+#cover-text:hover {
+    background-color: rgba(0,0,0,0.7);
+}
+
+#cover-text:hover h2 {
+    color: rgba(136, 136, 136, 1);
+}
+
+#hero-image:hover {
+    transform: scale(1.0);
+}
+
+@keyframes hero-hovercover {
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1.0);
+    }
+}
