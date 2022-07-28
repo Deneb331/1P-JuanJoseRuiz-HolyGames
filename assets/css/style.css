@@ -21,9 +21,14 @@ header {
 }
 
 h1, h2 {
+    font-size: 200%;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #F2E43F;
+}
+
+p {
+    font-size: 140%;
 }
 
 #logo {
@@ -42,11 +47,12 @@ h1, h2 {
 
 #menu {
     font-size: 120%;
-    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
 }
 
 #menu li {
-    display: inline;
     list-style-type: none;
     margin-right: 20px;
 }
@@ -144,9 +150,7 @@ h1, h2 {
     width: 350px;
     height: 350px;
 
-    background-image: url('../images/Alrescha.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
+    object-fit: cover;
 
     position: relative;
     top: -25px;
@@ -161,12 +165,7 @@ h1, h2 {
     margin: 25px;
 }
 
-#game1-text h2 {
-    font-size: 250%;
-}
-
 #game1-text p {
-    font-size: 150%;
     margin-top: 25px;
 }
 
@@ -176,10 +175,7 @@ h1, h2 {
     width: 350px;
     height: 350px;
 
-    background-image: url('../images/HeartLights.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+    object-fit: cover;
 
     position: relative;
     top: -25px;
@@ -194,11 +190,47 @@ h1, h2 {
     margin: 25px;
 }
 
-#game2-text h2 {
-    font-size: 250%;
-}
-
 #game2-text p {
-    font-size: 150%;
     margin-top: 25px;
 }
+
+/* About us */
+
+#about-us {
+    width: 100%;
+    height: auto;
+    background-color: #0882A3;
+    padding: 30px 0;
+}
+
+#about-us > h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 200%;
+}
+
+#about-us > p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#team-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.team-member {
+    width: 33%;
+    text-align: center;
+}
+
+.team-member img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
