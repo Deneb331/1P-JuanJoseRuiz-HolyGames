@@ -87,19 +87,33 @@
         </div>
     </section>
     <br>
-    <section>Contact</section>
+    <section>
+        <div id="contact-section">
+            <h2>Contact</h2>
+            <form action="" method="post" id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" class="text-input" id="name" name="full_name" required>
+                <label for="email">Email Adress</label>
+                <input type="email" class="text-input" id="email" name="email_address" required>
+                <label for="message">Message</label>
+                <input type="textarea" class="textarea-input" id="message" name="full_message" required>
+                <input type="button" value="Submit" class="submit-button">
+            </form>
+        </div>
+    </section>
     <footer>
-        <ul class="social-media">
+        <ul id="social-media">
             <li>
-                <a href="https://twitter.com" target="_blank"  rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)">Twitter</a>
+                <a href="https://twitter.com" target="_blank"  rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
             </li>
             <li>
-                <a href="https://youtube.com" target="_blank"  rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"> Youtube</a>
+                <a href="https://youtube.com" target="_blank"  rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"> <i class="fab fa-youtube"></i></a>
             </li>
             <li>
-                <a href="https://instagram.com" target="_blank"  rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"> Instagram</a>
+                <a href="https://instagram.com" target="_blank"  rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"> <i class="fab fa-instagram"></i></a>
             </li>
         </ul>
+        <p id="sign-text">Portfolio website by Juan Jose Ruiz Ruiz</p>
     </footer>
 
     <!-- font awesome script -->

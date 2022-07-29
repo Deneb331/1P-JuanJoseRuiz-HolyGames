@@ -234,3 +234,99 @@ p {
     border-radius: 50%;
 }
 
+/* Contact */
+
+#contact-section {
+    background-color: #0882A3;
+    padding: 30px 0;
+}
+
+#contact-section > h2 {
+    text-align: center;
+}
+
+#contact-form {
+    width: 60%;
+    height: auto;
+
+    margin: 20px 33%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-input {
+    max-width: 500px;
+    min-width: 300px;
+    height: 25px;
+    
+    margin: 10px 0;
+
+    border: 2px solid #06586f;
+    border-radius: 2px;
+}
+
+.textarea-input {
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 100px;
+    min-height: 50px;
+
+    margin: 10px 0;
+
+    border: 2px solid #06586f;
+    border-radius: 2px;
+}
+
+.submit-button {
+    width: 100px;
+    height: 50px;
+
+    text-transform: uppercase;
+    font-family: 'Cormorant SC', serif;
+    font-size: 20px;
+    font-weight: bold;
+
+    background-color: #06586f;
+    color: #F2E43F;
+
+    border-radius: 3px;
+
+    margin-top: 15px;
+}
+
+/* Footer */
+
+footer {
+    height: 125px;
+    width: 100%;
+    background-color: #06586f;
+
+    margin-top: 20px;
+}
+
+#social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#social-media > li {
+    list-style-type: none;
+}
+
+#social-media i {
+    font-size: 50px;
+    color: #F2E43F;
+    margin: 40px 30px 0px 30px; 
+}
+
+#sign-text {
+    font-size: 10px;
+    text-align: right;
+    
+    position: relative;
+    bottom: -15px;
+    margin-right: 10px;
+}
