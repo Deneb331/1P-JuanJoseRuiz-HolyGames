@@ -211,7 +211,7 @@ p {
 
 #about-us > p {
     text-align: center;
-    margin-bottom: 30px;
+    margin: 0px 20px 30px 20px;
 }
 
 #team-container {
@@ -328,4 +328,31 @@ footer {
     position: relative;
     bottom: -15px;
     margin-right: 10px;
+}
+
+/* Media queries small screen size, screen width under 1024px */
+
+@media screen and (max-width: 1024px) {
+    /* About us */
+
+
+    .team-member img {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* Contact form */
+    .text-input {
+        width: 325px;
+    }
+
+    .textarea-input {
+        width: 325px;
+    }
+}
+
+/* Media queries smartphone size, screen width under 480px */
+
+@media screen and (max-width: 480px) {
+    
 }
