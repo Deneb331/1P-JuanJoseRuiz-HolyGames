@@ -351,6 +351,7 @@ footer {
     }
 
     #logo {
+        font-size: 200%;
         float: none;
         text-align: center;
         margin: 0 auto;
