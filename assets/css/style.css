@@ -333,10 +333,17 @@ footer {
 /* Media queries small screen size, screen width under 1024px */
 
 @media screen and (max-width: 1024px) {
+    /* Body */
     p {
         font-size: 120%;
     }
+
+    /* Menu */
+    #menu li {
+        padding: 0px 5px;
+    }
     
+    /* Games */
     #game1, #game2 {
         height: 275px;
     }
