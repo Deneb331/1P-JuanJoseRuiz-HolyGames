@@ -75,8 +75,10 @@ Holy Games is a Game Development company who has been working in two fantasy jap
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+        <h2 align="center"><img src="assets/images/TestHTML.PNG"></h2>
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+        <h2 align="center"><img src="assets/images/TestCSS.PNG"></h2>
 
 ### Testing User Stories from User Experience (UX) Section
 
